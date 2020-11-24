@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>entryDialog</class>
+ <widget class="QDialog" name="entryDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>213</width>
+    <height>147</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>29</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>nama </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>36</y>
+     <width>22</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>NIM </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>62</y>
+     <width>23</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TELP</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>88</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>email</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineNama">
+   <property name="geometry">
+    <rect>
+     <x>47</x>
+     <y>10</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineNim">
+   <property name="geometry">
+    <rect>
+     <x>47</x>
+     <y>36</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineTelp">
+   <property name="geometry">
+    <rect>
+     <x>47</x>
+     <y>62</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEmail">
+   <property name="geometry">
+    <rect>
+     <x>47</x>
+     <y>88</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>121</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>add</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>102</x>
+     <y>121</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>cancel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>entryDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>155</x>
+     <y>128</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>197</x>
+     <y>85</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>entryDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>47</x>
+     <y>130</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>14</x>
+     <y>126</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

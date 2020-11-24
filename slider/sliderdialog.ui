@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sliderDialog</class>
+ <widget class="QDialog" name="sliderDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>444</width>
+    <height>345</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>sliderDialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>calculator</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>number 1</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QSpinBox" name="spinBox">
+         <property name="minimumSize">
+          <size>
+           <width>57</width>
+           <height>20</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2" colspan="2">
+        <widget class="QSlider" name="horizontalSlider">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>number 2</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QSpinBox" name="spinBox_2"/>
+       </item>
+       <item row="1" column="2" colspan="2">
+        <widget class="QSlider" name="horizontalSlider_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QRadioButton" name="radioButtonadd">
+         <property name="text">
+          <string>+</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QRadioButton" name="radioButtonminus">
+         <property name="text">
+          <string>-</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QRadioButton" name="radioButtonmultiply">
+         <property name="text">
+          <string>X</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="5">
+        <widget class="QRadioButton" name="radioButtondiv">
+         <property name="text">
+          <string>/</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>result</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2" colspan="4">
+        <widget class="QLCDNumber" name="lcdNumber">
+         <property name="minimumSize">
+          <size>
+           <width>246</width>
+           <height>51</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>resistor</string>
+      </attribute>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>21</x>
+         <y>31</y>
+         <width>30</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Ring 1</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>21</x>
+         <y>57</y>
+         <width>30</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Ring 2</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>21</x>
+         <y>83</y>
+         <width>30</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Ring 3</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox">
+       <property name="geometry">
+        <rect>
+         <x>57</x>
+         <y>31</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>hitam </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>coklat</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>merah</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>orange</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>kuning</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>hijau</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>biru </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ungu</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>emas</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>perak</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_2">
+       <property name="geometry">
+        <rect>
+         <x>57</x>
+         <y>57</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>hitam </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>coklat</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>merah</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>orange</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>kuning</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>hijau</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>biru </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ungu</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>emas</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>perak</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_3">
+       <property name="geometry">
+        <rect>
+         <x>57</x>
+         <y>83</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>hitam </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>coklat</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>merah</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>orange</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>kuning</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>hijau</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>biru </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ungu</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>emas</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>perak</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>140</y>
+         <width>47</width>
+         <height>13</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>calculate</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>140</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::WinPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>close</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>horizontalSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>197</x>
+     <y>44</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>126</x>
+     <y>46</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_2</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>222</x>
+     <y>76</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>116</x>
+     <y>79</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
